@@ -1,3 +1,4 @@
 **/.env
 **/.idea
 **/.poetry.lock
+**/__pycache__
