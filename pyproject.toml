@@ -1,0 +1,20 @@
+[project]
+name = "crew"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Ashwin Rangarajan",email = "r2ashwin@live.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<=3.13"
+dependencies = [
+    "crewai (==0.28.8)",
+    "crewai-tools (==0.1.6)",
+    "langchain-community (==0.0.29)",
+    "setuptools (>=80.4.0,<81.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
